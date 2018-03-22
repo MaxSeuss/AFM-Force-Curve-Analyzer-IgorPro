@@ -3,7 +3,7 @@ An Igor Pro toolkit to process and evaluate Atomic Force Microscopy Force-Distan
 
 The licence for the code in this repository is contained in the included license.md file.
 
-I have written these IGOR Pro procedures to process, analyze and evalute collected AFM force-distance curve during my PhD thesis. All processes and interactions with this software are handled through a graphical user interface (GUI) to ease the handeling. The reliablity and variability of the code was tested and improved over a time period of ~5 years by my collegues and me in the field of soft matter research. In particular for hydrogel and polymer mechanics and adhesion, capsule mechanics and polymer brush interactions.
+I have written these IGOR Pro procedures to process, analyze and evalute collected AFM force-distance curve during my PhD thesis. All processes and interactions with this software are handled through a graphical user interface (GUI, see picture) to ease the handeling. The reliablity and variability of the code was tested and improved over a time period of ~5 years by my collegues and me in the field of soft matter research. In particular for hydrogel and polymer mechanics and adhesion, capsule mechanics and polymer brush interactions.
 
 General information:
 - All code is commented to ease understanding the tasks and ideas behind commands used.

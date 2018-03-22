@@ -23,3 +23,7 @@ User interactions and data management:
 - Modifying the raw data will create new results waves. When extracting informations a corresponding overview wave for the currentfolder will be generated to sum up the results.
 - Additionally, some command-window only procedures ("folder_info2XXX") are supplied to extract every kind of information wanted.
 - All created new wave types follow the nameing principles of Asylum Research (ONLY NAMES). See alos file XXX
+
+
+
+Since I am only a semi-professional programmer, this code is not 100% bug-free. With increasing experience you will learn how to handle the software in its best way possilbe and how to avoid running into bugs or error messages, as I could follow this processes for my collegues and myself.

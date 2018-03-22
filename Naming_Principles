@@ -1,2 +1,5 @@
-test
-asdf
+Since Igor PRO v6 and v7 limits the maximum number of characters used to name a wave or variable many abreviations needed to be used.
+In this file I want to introduce the nameing principles I used and list the long names for the abreviations used.
+
+First and foremost I leant all names on the way the programmers from Asylum Research did it with their code. 
+Every raw data wave and also all processed waves follow the principle of BASENAME followed by a short abreviation indicating the TYPE of data stored and SUFFIX to state whether the approach, retraction or dwell was recorded.  

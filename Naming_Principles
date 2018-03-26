@@ -3,3 +3,35 @@ In this file I want to introduce the nameing principles I used and list the long
 
 First and foremost I leant all names on the way the programmers from Asylum Research did it with their code. 
 Every raw data wave and also all processed waves follow the principle of BASENAME followed by a short abreviation indicating the TYPE of data stored and SUFFIX to state whether the approach, retraction or dwell was recorded.  
+
+BasenameType_Suffix
+
+Used Suffixe are:
+_ext for extension or approach == the way towards the sample; sometimes shorten to "_tr"
+_ret for retraction == the way away from the sample; sometimes shorten to "_re"
+_towd for towards which corresponds to the part of the curve while in dwell on or away from the surface
+
+Used Types of curves:
+- Raw measurement data and general input waves
+  DeflV refering to deflection singal in Volts from the photodiode
+  Raw refering to the piezo movement in z direction in m
+  ZSnsr refering to the ZSnsr movement in z direction in m
+  BOTH Raw and ZSnsr are treated equally in this code. At least one needs to be there
+  
+- Calculated Types of curves
+  Defor refers to Deformation calculated concering the point of contact found
+  Force refers to the calculated force based on DeflV * inverse optical lever sensitivity * spring constant
+  Sepa refers to tip sample separation also based on the contact point determined.
+
+- Calculated Types storeing results from a given routine
+  Cont refers to Contact Point determination
+  AdhF refers to Adhesion Force storing the "standard" adhesion force and point value
+  AdhV refers to Adhesion Voltage storing the "standard" adhesion voltage and point value
+  AdhFJKR refers to Adhesion Force determined by Johnson-Kendall-Roberts theory
+  AdhFDMT refers to Adhesion Force determined by Derjaguin-Muller-Toporov theory
+  Maugis refers to all the input and fitting variables used to calculate the Maugis fit in the Carpick approxmiation
+  MD_D* and MD_F* refer to purely calculated waves for Force and Deformation while performing the Maugis fitting
+  ContRad refers to the Contact Radius calculated purely from geometric consideration to be used in the Maugis fitting
+  WoAdhF refers to the Work of Adhesion (Force) calculated based on JKR or DMT model
+  
+There are further Types of curves used but for them I refer the User to look up the specifics in the comments of the source code.  

@@ -7,7 +7,7 @@ I have written these IGOR Pro procedures to process, analyze and evalute collect
 
 General information:
 - All code is commented to ease understanding the tasks and ideas behind commands used.
-- This software processes raw detector deflection signals in voltage vs raw piezo movement waves in meter. Therefore, it is suitable for measurements collected at any atomic force microscope, provided the data is importable to Igor Pro. No header-information from waves are used. Only 'name style' of the measurements must follow the principles of Asylum Research.(everything is explained in XXX)
+- This software processes raw detector deflection signals in voltage vs raw piezo movement waves in meter. Therefore, it is suitable for measurements collected at any atomic force microscope, provided the data is importable to Igor Pro. No header-information from waves are used. Only 'name style' of the measurements must follow the principles of Asylum Research.(everything is explained in 'Naming_principles')
 - The procedure first indexes all force-distance curves in a specified Igor Pro Folder. All curves can be processed and visualizied in graph indiviually or all at once.
 - All systems constants like cantilever spring constant, sensitivity, probe radius etc. are requested by user input.
 - General processing features include: determination of baseline tilt angle and its correction to be flat; "easy" calculation of the adhesion force (lowest force value while retracting); determination of the contact point: 5 different algorithm adjustable through different input values; conversion from raw deflection and piezo movement to force versus deformation/separation
